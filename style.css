@@ -1,0 +1,86 @@
+.bigdiv{
+    position : fixed;
+    background-color: rgba(3,3,11,.9);
+    padding: 10px;
+    padding-left: 10px;
+}
+.smalldiv{
+    padding-top : 20px;
+    position: relative;
+}
+.smalldiv span{
+    color: #45adab;
+    position: relative;
+    word-spacing: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    left: -40px;
+}
+.smalldiv span i{
+    position: relative;
+    top : -25px;
+}
+.search{
+  position: relative;
+  top: 10px;
+}
+#input{
+    width: 350px;
+}
+
+.centerview1{
+    margin : 50px;
+}
+ .centerview1{
+   background-color : blue;
+     height : 400px ;
+     width: 500px ;
+     position: relative;
+     left : 20px;
+}
+ .centerview2,.centerview3,.centerview4{
+     background-color: black;
+     height : 400px ;
+     width : 500px ;
+     position: relative;
+     left: 5px ;
+     top: 5px;
+ }
+ .sign{
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     color: #45adab;
+ }
+ .popover-title{
+     background-color: #000000 !important;
+     color: #7fa9fe;
+     text-align: center;
+ }
+ .popover-content{
+     background-color: #ddeeae;
+     font-family: "Rage Italic";
+ }
+ @keyframes  moveUp {
+0%{
+      height: 0;
+      top: 0 ;
+}
+     25%{
+         top : -22.5vh;
+         height: 22.5vh ;
+     }
+     50%{
+         top : -45vh;
+         height: 45vh ;
+     }
+     75%
+     {
+         top: -67.5vh;
+         height : 67.5vh
+     }
+     100%{
+         top:  -89.2vh ;
+         height: 89.2vh;
+     }
+ }
